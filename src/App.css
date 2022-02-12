@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: rgb(248, 252, 5);
+}
+.off {
+  color: #ccc;
+}
+
+span {
+  font-family:arial;
+  font-size:20px;
+}
+
+
+.reviewform {
+  max-width: 400 px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reviewform label {
+  text-align: left;
+  display: block;
+}
+
+.reviewform input, .ReviewForm textarea, .ReviewForm select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.reviewform button {
+  background: #34a37e;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
